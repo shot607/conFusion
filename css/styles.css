@@ -9,12 +9,8 @@
     border-bottom: 1px ridge;
     min-height: 400px;
 }
+
 .footer{
-    background-color: #9400D3;
-    margin: 0px auto;
-    padding: 20px 0px 20px 0px;
-}
-.footer2{
     background-color: #b19cd9;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
