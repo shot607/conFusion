@@ -43,6 +43,9 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="/img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 col-sm align-self-center order-sm-last">
+                    <a class="btn btn-block btn-sm btn-warning" href="#gotoform">Reserve A Table</a>
+                </div>
             </div>
         </div>
     </header>
@@ -66,12 +69,27 @@
 
 
         <div class = "row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3">
+            <div class="col-12 col-sm-4 col-md-3 order-sm-first">
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                
+                
+                <div class="media">
+                    <div class="container">
+                        <div class="row row-content align-items-center">
+                        <div class="col-6 col-sm-8 order-sm-first">
+                            <h2>Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                            <div class="d-none d-sm-block">
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            </div>
+        </div>
+                <div class="col-6 col-sm-4 order-sm-last">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="/img/buffet.png">
+                </div>
+            </div>
+            </div>
+            </div>
             </div>
         </div>
 
@@ -85,14 +103,77 @@
                     <div class="media-body">
                         <h2>Alberto Somayya</h2>
                 <h4>Executive Chef</h4>
+                
                 <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
                     </div>
+                
                 </div>
                 
             </div>
         </div>
+        <div class="row row-content align-items-center">
+            
+            <div class="card col-12 col-sm-8 offset-2 d-flex justify-conent-center" id="gotoform">
+                <h3 class="card-header bg-warning text-white">Make A Reservation</h3>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row no-gutters row-content">           
+                        
+                        <div class="col-12 col-sm-8">
+                            <label for="ex" class="col-12 col-sm-4 col-form-label">Number of Guests</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Tables"id="ex">
+                                <label class="form-check-label" for="ex">1</label>
+                            </div>
+                            
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Tables"id="ex2">
+                                <label class="form-check-label" for="ex2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Tables"id="ex3">
+                                <label class="form-check-label" for="ex3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Tables"id="ex4">
+                                <label class="form-check-label" for="ex4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Tables"id="ex5">
+                                <label class="form-check-label" for="ex5">5</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Tables"id="ex6">
+                                <label class="form-check-label" for="ex6">6</label>
+                            </div>
+
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group row">
+                                <label for="telnum" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                                <div class="col-5 col-md-3">
+                                    <input type="text" class="form-control" id="date" name="date" 
+                                    placeholder="Date">
+                                </div>
+                                <div class="col-7 col-md-7">
+                                    <input type="text" class="form-control" id="Time" name="Time" 
+                                    placeholder="Time">
+                                </div>
+                                <button type="submit" class="btn btn-primary">
+                                    Make Reservation
+                                </button>
+                                </div>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            
+        </div>
+        </div>        
     </div>
-        <footer class="footer2">
+        <footer class="footer">
             <div class="container">
                 <div class="row">             
                     <div class="col-4 offset-1 col-sm-2">
